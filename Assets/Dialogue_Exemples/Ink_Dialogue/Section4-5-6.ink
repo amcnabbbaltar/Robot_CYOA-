@@ -1,6 +1,6 @@
 VAR score = 0
 -> 4_Planning
-== 4_Planning ===
+=== 4_Planning ===
 The initial momentum carries you for a while, enough to feel encouraging.
 Then the cracks start to show.
 Questions pile up faster than answers. Some people are waiting on decisions that haven’t been made yet. Others are already moving ahead, building things that might not align. Nothing is failing exactly, but everything feels harder than it should.
@@ -77,7 +77,7 @@ As the team captain, what do you do about this conflict?
 * [Ask the electrical team to double‑check their work while others take a break.] -> 5_1B_ElectricalRecheck
 * [Create a shared checklist and verify everything together.] -> 5_1C_SharedChecklist
 
-===  5_1A_EveryoneRecheck===
+=== 5_1A_EveryoneRecheck ===
 ~ score = score + 1
 # sound:bad
 
@@ -234,9 +234,9 @@ This is bad, you think. Such a little, stupid mistake can cost us so many months
 
  You are mad and  looking for someone to blame.
 
-*[Blame electrical.] -> 6_1A_BlameElectrical
-*[Mobilize the team to help.] -> 6_1B_MobilizeTeam
-*[Ask other teams for help, politely.] -> 6_1C_AskOtherTeam
+* [Blame electrical.] -> 6_1A_BlameElectrical
+* [Mobilize the team to help.] -> 6_1B_MobilizeTeam
+* [Ask other teams for help, politely.] -> 6_1C_AskOtherTeam
 
 === 6_1A_BlameElectrical ===
 ~ score = score + 1
@@ -251,7 +251,7 @@ She grabs the old fuse casings and her backpack, jogs toward the exit, and disap
 Almost an hour passes before Jules bursts back into the pit, pockets full of fuse packs. “We got them!” she announces, though her tone carries the weight of exhaustion.
 You fix the robot quickly, but the screen above the arena already shows that you missed one game round.
 Still, the robot is powered again, humming back to life… just in time for the next round.
-*[Pilot nerves] -> 6_2_PilotsBreakdown
+* [Pilot nerves] -> 6_2_PilotsBreakdown
 
 === 6_1B_MobilizeTeam ===
 ~ score = score + 2
@@ -273,7 +273,7 @@ You plug in the fuses and power the robot back up. Everything lights up perfectl
 
 The team feels relieved, energized, and ready to get back in the game.
 
-*[Pilot nerves] -> 6_2_PilotsBreakdown
+* [Pilot nerves] -> 6_2_PilotsBreakdown
 
 === 6_1C_AskOtherTeam ===
 ~ score = score + 3
@@ -289,7 +289,7 @@ The kindness boosts your spirits as you sprint back. Your teammates cheer when y
 
 It only took 10 minutes, and you didn’t miss your match. The bot is ready well before the next round, and now you’ve made new friends.
 
-*[Pilot nerves] -> 6_2_PilotsBreakdown
+* [Pilot nerves] -> 6_2_PilotsBreakdown
 
 === 6_2_PilotsBreakdown ===
 As Mia is about to head to her driver's station once more, she starts to freak out because of performance pressure.
@@ -304,9 +304,9 @@ Even with the other’s kindness, Mia still doesn’t seem to get herself togeth
 
 How can you save the situation?
 
-*[Pressure her to push through.] -> 6_2A_PushThrough
-*[Encourage her logically.] -> 6_2B_EncourageLogical
-*[Reassure her emotionally.] -> 6_2C_ReassureLogical
+* [Pressure her to push through.] -> 6_2A_PushThrough
+* [Encourage her logically.] -> 6_2B_EncourageLogical
+* [Reassure her emotionally.] -> 6_2C_ReassureLogical
 
 === 6_2A_PushThrough ===
 ~score = score + 0
@@ -360,5 +360,5 @@ Surrounded by warmth instead of pressure, Mia wipes her eyes, breathes deep, and
 
 * [Debrief]->7_DebriefLea
 
-===7_DebriefLea ===
+=== 7_DebriefLea ===
 -> END
